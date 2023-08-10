@@ -5,7 +5,7 @@
 
 .search_container{
    padding-top: 20px;
-    height: 70px;
+    height: 50px;
     width: 40vw;
     margin: auto;
 }
@@ -26,6 +26,7 @@
 }
 
 .post_container{
+    padding: 30px;
     width: 70vw;
     margin: auto;
     display: flex;
@@ -34,13 +35,13 @@
     gap: 10px;
 }
 .post_container .card{
-    background-color:  rgb(54, 162, 234);
+    background-color:  rgb(217, 218, 219);
     padding: 5px;
     border-radius: 5px ;
 }
 .post_container .card p{
-    line-height: 40px;
-  
+
+  padding: 5px;
 }
 .post_container .card p span{
     font-weight: bold;
